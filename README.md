@@ -1,56 +1,81 @@
-# AI Workplace Companion
+# AI Workplace Productivity Assistant
 
 ## Project Overview
 
-AI Workplace Companion is a modern AI-powered productivity platform designed to help professionals automate everyday workplace tasks. The application uses artificial intelligence to generate professional emails, summarize meeting notes, organize tasks, conduct research, and provide an intelligent workplace assistant through an interactive chatbot.
+AI Workplace Productivity Assistant is a modern AI-powered web application designed to help professionals automate common workplace tasks. The platform combines multiple AI-powered productivity tools into a single dashboard, allowing users to generate professional emails, summarize meeting notes, plan daily and weekly tasks, conduct research, and interact with an AI workplace assistant.
 
-The goal of the project is to improve workplace efficiency, reduce time spent on repetitive tasks, and demonstrate practical AI implementation, prompt engineering, and responsible AI usage.
+This project demonstrates practical AI implementation, prompt engineering, modern web development, and responsible AI practices.
 
 ---
 
 ## Features
 
 ### 📧 Smart Email Generator
-- Generate professional emails
-- Multiple writing tones (Formal, Friendly, Persuasive, Professional)
+- Generate professional emails instantly
+- Multiple tones:
+  - Formal
+  - Friendly
+  - Persuasive
+  - Professional
+  - Apology
+  - Follow-up
 - Editable output
-- Copy and download functionality
+- Copy and download generated emails
 
 ### 📝 Meeting Notes Summarizer
 - Summarize lengthy meeting notes
-- Extract key discussion points
-- Identify action items
-- Highlight deadlines and responsibilities
+- Extract:
+  - Key discussion points
+  - Decisions made
+  - Action items
+  - Responsibilities
+  - Deadlines
+- Export summarized notes
 
 ### 📅 AI Task Planner
 - Create daily and weekly schedules
-- Prioritize tasks by urgency
-- Recommend time management strategies
+- Prioritize tasks based on urgency and importance
+- Suggest time optimization strategies
+- Color-coded task priorities
 
 ### 🔍 AI Research Assistant
-- Summarize articles and reports
-- Extract key insights
+- Summarize articles and research topics
+- Highlight key insights
 - Generate recommendations
 - Simplify complex information
 
-### 💬 AI Workplace Chatbot
-- Interactive AI assistant
-- Responds to workplace-related questions
-- Provides productivity support
-- Maintains conversation history
+### 💬 AI Chatbot Interface
+- Interactive workplace assistant
+- Answer workplace-related questions
+- Maintain conversation history
+- Suggested prompts for quick interactions
 
-### 🎨 Modern User Interface
-- Responsive design
+### 📚 Prompt Library
+- View reusable AI prompts
+- Copy and edit prompts
+- Save favorite prompts
+
+### ⚙️ Settings
 - Dark and Light mode
-- Professional dashboard
+- Accent color customization
+- Font size adjustment
+- AI preferences
+- Clear history
+
+### 🎨 Modern Dashboard
+- Responsive design
 - Sidebar navigation
-- Smooth animations
+- Search bar
+- User profile section
+- Productivity statistics
+- Recent activity
+- Quick action buttons
 
 ### 🔒 Responsible AI
 - AI disclaimer
 - Privacy notice
 - Ethical AI statement
-- Encourages users to verify AI-generated content
+- Bias awareness message
 
 ---
 
@@ -65,9 +90,9 @@ The goal of the project is to improve workplace efficiency, reduce time spent on
 
 ### AI
 - Lovable AI
-- OpenAI / ChatGPT
+- OpenAI (ChatGPT)
 
-### Development
+### Development Tools
 - Git
 - GitHub
 - Visual Studio Code
@@ -79,13 +104,13 @@ The goal of the project is to improve workplace efficiency, reduce time spent on
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-Workplace-Companion.git
+git clone https://github.com/YOUR_USERNAME/AI-Workplace-Productivity-Assistant.git
 ```
 
 ### 2. Navigate to the project folder
 
 ```bash
-cd AI-Workplace-Companion
+cd AI-Workplace-Productivity-Assistant
 ```
 
 ### 3. Install dependencies
@@ -102,7 +127,7 @@ npm run dev
 
 ### 5. Open the application
 
-Open your browser and visit:
+Visit the application in your browser:
 
 ```
 http://localhost:5173
@@ -113,15 +138,21 @@ http://localhost:5173
 ## Project Structure
 
 ```
-src/
+AI-Workplace-Productivity-Assistant/
 │
-├── components/
-├── pages/
-├── hooks/
-├── services/
-├── assets/
-├── styles/
-└── App.tsx
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   ├── assets/
+│   ├── styles/
+│   └── App.tsx
+│
+├── public/
+├── package.json
+├── README.md
+└── vite.config.ts
 ```
 
 ---
@@ -134,14 +165,14 @@ This application uses Artificial Intelligence to assist users with workplace pro
 
 ## Future Improvements
 
-- Voice assistant support
-- Calendar integration
-- PDF export
-- Team collaboration
-- AI analytics dashboard
-- Multi-language support
 - User authentication
 - Cloud storage
+- Team collaboration
+- Calendar integration
+- PDF and Word export
+- Voice input
+- Multi-language support
+- AI analytics dashboard
 
 ---
 
@@ -159,4 +190,4 @@ GitHub: https://github.com/aveoscarJack
 
 ## License
 
-This project is developed for educational purposes as part of the **CAPACITI AI Skills Acceleration Programme**.
+This project was developed for educational purposes as part of the **CAPACITI AI Skills Acceleration Programme**.
